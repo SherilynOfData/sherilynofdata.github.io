@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Gcinithemba Sherilyn Maphosa</title>
+  <meta name="description" content="Portfolio of data science and analytics projects by Gcinithemba Sherilyn Maphosa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <a href="index.html" class="logo">GSM</a>
+        <nav class="desktop-nav">
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Expertise</a></li>
+            <li><a href="cv.html">CV</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <button id="theme-toggle" aria-label="Toggle Theme">
+            <i data-feather="sun" class="light-icon"></i>
+            <i data-feather="moon" class="dark-icon"></i>
+          </button>
+        </nav>
+        <div class="mobile-nav-toggle">
+          <button id="mobile-menu-btn" aria-label="Toggle Mobile Menu">
+            <i data-feather="menu"></i>
+          </button>
+          <button id="mobile-theme-toggle" aria-label="Toggle Theme">
+            <i data-feather="sun" class="light-icon"></i>
+            <i data-feather="moon" class="dark-icon"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-menu" class="mobile-menu">
+      <ul class="mobile-nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="portfolio-section">
+      <div class="container">
+        <div class="section-header text-center">
+          <h1 class="page-title">Portfolio</h1>
+          <p class="section-description">
+            A showcase of my data science and analytics projects across various domains.
+          </p>
+        </div>
+
+        <div class="portfolio-grid">
+          
+
+          <div class="portfolio-card" id="project-2">
+            <div class="portfolio-image">
+              <img src="images/project-1.jpg" alt="Customer Segmentation Analysis">
+            </div>
+            <div class="portfolio-content">
+              <h3>Customer Segmentation Analysis</h3>
+              <p>
+                Machine learning model to segment customers based on purchasing behavior, demographics, and engagement metrics.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Customer Analytics</span>
+              </div>
+              <a href="https://github.com/sherilynofdata/customer-segmentation" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                View Project <i data-feather="external-link" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-card" id="project-3">
+            <div class="portfolio-image">
+              <img src="images/project-1.jpg" alt="WhatsApp Chatbot">
+            </div>
+            <div class="portfolio-content">
+              <h3>WhatsApp Chatbot</h3>
+              <p>
+                AI-powered WhatsApp chatbot for customer service automation and lead generation.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">NLP</span>
+                <span class="tag">Chatbot</span>
+                <span class="tag">WhatsApp API</span>
+              </div>
+              <a href="https://github.com/sherilynofdata/whatsapp-chatbot" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                View Project <i data-feather="external-link" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-card" id="project-4">
+            <div class="portfolio-image">
+              <img src="images/project-1.jpg" alt="Predictive Sales Forecasting">
+            </div>
+            <div class="portfolio-content">
+              <h3>Predictive Sales Forecasting</h3>
+              <p>
+                Time series analysis model to predict future sales based on historical data and external factors.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Time Series</span>
+                <span class="tag">Forecasting</span>
+              </div>
+              <a href="https://github.com/sherilynofdata/sales-forecasting" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                View Project <i data-feather="external-link" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="portfolio-card" id="project-5">
+            <div class="portfolio-image">
+              <img src="images/project-1.jpg" alt="Data Quality Framework">
+            </div>
+            <div class="portfolio-content">
+              <h3>Data Quality Framework</h3>
+              <p>
+                A comprehensive framework for assessing and improving data quality across organizational datasets.
+              </p>
+              <div class="portfolio-tags">
+                <span class="tag">Data Governance</span>
+                <span class="tag">Quality Metrics</span>
+                <span class="tag">Documentation</span>
+              </div>
+              <a href="https://github.com/sherilynofdata/data-quality-framework" class="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                View Project <i data-feather="external-link" class="icon-sm"></i>
+              </a>
+            </div>
+          </div>
+
+          
+          
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3>Gcinithemba Sherilyn Maphosa</h3>
+          <p>Data Scientist & Analyst</p>
+        </div>
+        <div class="footer-social">
+          <a href="https://www.linkedin.com/in/gcinithemba-sherilyn-maphosa-1a0a71ab/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i data-feather="linkedin"></i>
+          </a>
+          <a href="https://github.com/sherilynofdata" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i data-feather="github"></i>
+          </a>
+          <a href="https://twitter.com/sherilynofdata" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <i data-feather="twitter"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>&copy; <span id="current-year"></span> Gcinithemba Sherilyn Maphosa. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script>
+    feather.replace();
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
